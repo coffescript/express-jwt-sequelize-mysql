@@ -1,0 +1,42 @@
+{
+  "name": "express-jwt-sequelize-mysql",
+  "version": "1.0.0",
+  "description": "Configuration of backend for work with JWT, Express, Sequelize, MySQL and Passport.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffescript/express-jwt-sequelize-mysql.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "es6",
+    "twt",
+    "passportjs",
+    "sequelize",
+    "mysql",
+    "express"
+  ],
+  "author": "Fabricio Mejia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coffescript/express-jwt-sequelize-mysql/issues"
+  },
+  "homepage": "https://github.com/coffescript/express-jwt-sequelize-mysql#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^5.21.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
